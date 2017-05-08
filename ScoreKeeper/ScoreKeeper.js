@@ -58,7 +58,7 @@ function reset() {
 };
 
 numInput.addEventListener("change", function() {
-    finalScoreDisplay.textContent = numInput.value;
-    winningScore = Number(numInput.value);
+    finalScoreDisplay.textContent = this.value;
+    winningScore = Number(this.value);
     reset();
 });

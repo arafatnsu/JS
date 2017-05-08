@@ -86,3 +86,14 @@ function buildString(movie) {
 movies.forEach(function(movie) {
     console.log(buildString(movie));
 });
+
+//hover event
+var lis = document.querySelectorAll("li");
+for (i = 0; i < lis.length; i++) {
+    lis[i].addEventListener("mouseover", function() {
+        this.style.color = "wheat";
+    });
+    lis[i].addEventListener("mouseout", function() {
+        this.style.color = "black";
+    })
+};

@@ -97,3 +97,9 @@ for (i = 0; i < lis.length; i++) {
         this.style.color = "black";
     })
 };
+
+var h1 = document.querySelector("#hdd");
+h1.addEventListener("click", function() {
+    this.style.color = "green";
+    document.getElementById("hdd").innerHTML = "Oh! you clicked me :):)";
+});

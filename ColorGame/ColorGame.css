@@ -77,3 +77,21 @@ button:hover {
     color: white;
     background: steelblue;
 }
+
+@media screen and (max-width: 480px) {
+    .cssbtn {
+        float: right;
+    }
+    #reset {
+        float: left;
+    }
+    h1 {
+        font-size: 23px;
+    }
+    #colorDisplay {
+        font-size: 150%;
+    }
+    #message {
+        padding-top: 4px;
+    }
+}

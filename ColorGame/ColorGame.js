@@ -69,18 +69,18 @@ for (var i = 0; i < squares.length; i++) {
             messegeDisplay.textContent = "Try Again";
         }
     });
-};
+}
 
 function changeColors(color) {
     for (i = 0; i < squares.length; i++) {
         squares[i].style.background = color;
     }
-};
+}
 
 function pickColor() {
     var random = Math.floor(Math.random() * colors.length);
     return colors[random];
-};
+}
 
 function generateRandomColors(num) {
     var arr = [];
@@ -89,7 +89,7 @@ function generateRandomColors(num) {
         arr.push(randomColor())
     }
     return arr;
-};
+}
 
 function randomColor() {
     //pick red 0 to 255
